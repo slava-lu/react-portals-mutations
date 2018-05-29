@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>Breaking out of the Matrix with React Portals and Mutation Observer</title>
+</head>
+<body>
+
+<script>
+    // this is the third party web site not controlled by React app. React app will "live" in "root"  div.
+    function addElement() {
+        const newElement = document.createElement('p');
+        newElement.classList.add("post_about_cat");
+        newElement.innerHTML = "This cat has been just added";
+        document.body.appendChild(newElement);
+    }
+</script>
+
+<button onclick="addElement()">Add new element</button>
+
+<p class="post_about_cat">This cat exists in DOM</p>
+
+<div id="root"></div>
+
+</body>
+</html>
