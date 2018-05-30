@@ -5,9 +5,9 @@
 This is the example app for the [article on Medium](https://).
 
 The app demonstrates the use of JavaScript Mutation Observer and React Portals that allows to easily modify any part of
-the external parent app that host a React app.
+the external parent app that hosts a React app.
 
-When you click a button you add a new node to the external parent app. React app sees a new node and add a cat icon next to it. 
+When you click a button you add a new node to the external parent app. React app sees this new node and add a cat icon next to it. 
 
 ## Motivation
 It is not a big deal nowadays to build a SPA if you fully control all the parts of it. It is usually much harder to integrate some parts
