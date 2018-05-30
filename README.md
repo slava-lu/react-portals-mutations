@@ -2,7 +2,7 @@
 
 <img align="left" src="video.gif" height="500px">
 
-This is the example app for the [article on Medium](https://).
+This is the example app for the [article on Medium](https://medium.com/@viacheslavlushchinskiy/breaking-out-of-the-matrix-with-react-portals-and-mutation-observer-b35b8d977235).
 
 The app demonstrates the use of JavaScript Mutation Observer and React Portals that allows to easily modify any part of
 the external parent app that hosts a React app.
